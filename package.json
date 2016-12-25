@@ -1,0 +1,29 @@
+{
+  "name": "nest-woodpecker",
+  "version": "0.0.1",
+  "description": "Detect the browser type and version, add it as a CSS class name into html dom node",
+  "main": "src/js/woodpecker.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradwoo8621/woodpecker.git"
+  },
+  "keywords": [
+    "nest",
+    "browser",
+    "woodpecker"
+  ],
+  "author": {
+    "name": "Brad Wu",
+    "email": "bradwoo8621@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bradwoo8621/woodpecker/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
