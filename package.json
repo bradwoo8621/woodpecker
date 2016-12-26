@@ -1,6 +1,6 @@
 {
   "name": "nest-woodpecker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Detect the browser type and version, add it as a CSS class name into html dom node",
   "main": "src/js/woodpecker.js",
   "repository": {

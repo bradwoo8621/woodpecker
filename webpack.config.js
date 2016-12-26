@@ -1,5 +1,6 @@
 let path = require('path');
 let webpack = require('webpack');
+let PACKAGE = require('./package.json');
 
 let WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
@@ -26,7 +27,8 @@ var options = {
 		}]
 	},
 	plugins: [
-		new WebpackCleanupPlugin()
+		new WebpackCleanupPlugin(),
+		new webpack.BannerPlugin('Copyright 2016 bradwoo8621.  Released under the MIT license. V' + PACKAGE.version)
 	],
 	externals: {
 		// require('jquery') is external and available on the global var jQuery

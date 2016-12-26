@@ -9,7 +9,7 @@ class BrowserHelper {
 	}
 	detect() {
 		return Object.keys($.browser).filter((key) => {
-			return key !== 'version' && key !== 'versionNumber';
+			return ['version', 'versionNumber', 'name', 'platform', 'uaMatch'].indexOf(key) == -1;
 		}).reduce((classes, key) => {
 			let className = `n-${key.replace(' ', '-')}`;
 

@@ -1,3 +1,4 @@
+/*! Copyright 2016 bradwoo8621.  Released under the MIT license. V0.0.2 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("jquery"), require("classnames"));
@@ -89,7 +90,7 @@ return /******/ (function(modules) { // webpackBootstrap
 			key: 'detect',
 			value: function detect() {
 				return Object.keys($.browser).filter(function (key) {
-					return key !== 'version' && key !== 'versionNumber';
+					return ['version', 'versionNumber', 'name', 'platform', 'uaMatch'].indexOf(key) == -1;
 				}).reduce(function (classes, key) {
 					var className = 'n-' + key.replace(' ', '-');
 
