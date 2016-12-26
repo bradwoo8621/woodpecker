@@ -12,6 +12,9 @@ Woodpecker is a sub module of NEST.
 ### Slack
 [nest-parrot.slack.com](https://slack.global.ssl.fastly.net/66f9/img/icons/ios-32.png)
 
+### Package
+Including [JQuery Browser by Gabceb](https://www.npmjs.com/package/jquery.browser)
+
 # License
 MIT
 
