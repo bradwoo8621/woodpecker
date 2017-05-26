@@ -1,4 +1,4 @@
-/*! Copyright 2016 bradwoo8621.  Released under the MIT license. V0.0.2 */
+/*! Copyright 2016 bradwoo8621.  Released under the MIT license. V0.0.3 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("jquery"), require("classnames"));
