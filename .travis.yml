@@ -1,19 +1,13 @@
 language: node_js
 node_js:
-  - "6.1"
+- '6.1'
 install:
-  - npm install
-
-# notifications:
-#   slack:
-#     rooms:
-#       - nest-parrot:z3jqw9krJbPu0CcQBKS90AnZ#travis-ci
-#      - nest-parrot:z3jqw9krJbPu0CcQBKS90AnZ#random
-
+- npm install
 deploy:
-    skip_cleanup: true
-    provider: npm
-    email: bradwoo8621@gmail.com
-    api_key: 3cae1ae6-4d60-433d-b4d8-1072f9a7c4c1
-    on:
-        tags: true
+  skip_cleanup: true
+  provider: npm
+  email: bradwoo8621@gmail.com
+  api_key:
+    secure: xTgserNBp8bxJL4sJSqGF1g48DCz0CYFF2agBg2g90IBTAsK1qF0jouEDV62ofGH5LjtMMfmH+hm8UamsCm7vAhPEDJR55Hh/Aaa+H9H4v3iXWfXiSshpWxfrkOABi9wRofA1yuCzVYUFjIasfOmOe0gLfqkiE1FRwWAc3ng4pdiYkxihn8/bEDGxZWaxUMJvBlqaNzsZkEHFlkyte6CEn0NxHbFjH/E/6krGH1LyEsws1vXQ0OMcluPF9+bNSYeGM76oTydl83/7TIyR0lJyc5aLPIzU2A9g2hDKsv/r2sfzBKTGaCqiYccdgwtF4qkUR1x9rSPTTPy34J2liE6uLmiWkajZZScb451Sz+rvvLSvvSELXr1KJMQ6LeeauGKES68wlSSkD5TKBxhKI5KW1dEp6d73XsSrQMcX9vtD0/8tX2mDgZ+36Lfs5mYRkMRumAaEWzCvdIe7Hgll3wZBKcPJ1yVpHDxLRCR9x1e8GdXu4GwEvm3F80/clUxWpCXCpYwY+DoNrYRoBcBXD3NfQzl1NpKhT1SBupTQtYMT9kO9LdsQgq0em5qHNbtKhZd4N3wLigiVZOD/kUKnNjkFC6aG18Kw1Zfz+1gyQWmQoJPrSNlVqJXD3Yo+RIhFnm3lm9AFQ3YtnC5RBeHE1KeJ6DLTKAqT0oaW1mz4QK+WwQ=
+  on:
+    tags: true
